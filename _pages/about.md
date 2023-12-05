@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: |+
   <strong>Research Scientist</strong> at <a href="https://openai.com/">OpenAI</a>. <br><br>
-  Incoming <strong>Assistant Professor</strong>, <br>
+  <strong>Looking for jobs</strong>, <br>
   Electrical Engineering and Computing + Mathematical Sciences, <br>
   <a href="https://www.caltech.edu">California Institute of Technology (Caltech)</a>.
 
