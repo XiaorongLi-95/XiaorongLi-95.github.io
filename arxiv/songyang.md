@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: nothing
 permalink: /
 subtitle: |+
   <strong>Research Scientist</strong> at <a href="https://openai.com/">OpenAI</a>. <br><br>
