@@ -32,6 +32,21 @@
     pdf = {https://ojs.aaai.org/index.php/AAAI/article/view/4466}
     }
 
+@ARTICLE{VR_2022_Wang,
+  author={Wang, Shipeng and Yang, Yan and Sun, Jian and Xu, Zongben},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Variational HyperAdam: A Meta-Learning Approach to Network Training}, 
+  year={2022},
+  volume={44},
+  number={8},
+  pages={4469-4484},
+  pdf = {https://ieeexplore.ieee.org/abstract/document/9361276},
+  code = {https://github.com/ShipengWang/Variational-HyperAdam},
+  abbr = {TPAMI},
+  selected = {true},
+  abstract = {Stochastic optimization algorithms have been popular for training deep neural networks. Recently, there emerges a new approach of learning-based optimizer, which has achieved promising performance for training neural networks. However, these black-box learning-based optimizers do not fully take advantage of the experience in human-designed optimizers and heavily rely on learning from meta-training tasks, therefore have limited generalization ability. In this paper, we propose a novel optimizer, dubbed as Variational HyperAdam, which is based on a parametric generalized Adam algorithm, i.e., HyperAdam, in a variational framework. With Variational HyperAdam as optimizer for training neural network, the parameter update vector of the neural network at each training step is considered as random variable, whose approximate posterior distribution given the training data and current network parameter vector is predicted by Variational HyperAdam. The parameter update vector for network training is sampled from this approximate posterior distribution. Specifically, in Variational HyperAdam, we design a learnable generalized Adam algorithm for estimating expectation, paired with a VarBlock for estimating the variance of the approximate posterior distribution of parameter update vector. The Variational HyperAdam is learned in a meta-learning approach with meta-training loss derived by variational inference. Experiments verify that the learned Variational HyperAdam achieved state-of-the-art network training performance for various types of networks on different datasets, such as multilayer perceptron, CNN, LSTM and ResNet.}
+  }
+
 
 
 inproceedings{song2023consistency,
