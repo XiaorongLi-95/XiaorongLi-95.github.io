@@ -45,6 +45,30 @@
   abstract = {Stochastic optimization algorithms have been popular for training deep neural networks. Recently, there emerges a new approach of learning-based optimizer, which has achieved promising performance for training neural networks. However, these black-box learning-based optimizers do not fully take advantage of the experience in human-designed optimizers and heavily rely on learning from meta-training tasks, therefore have limited generalization ability. In this paper, we propose a novel optimizer, dubbed as Variational HyperAdam, which is based on a parametric generalized Adam algorithm, i.e., HyperAdam, in a variational framework. With Variational HyperAdam as optimizer for training neural network, the parameter update vector of the neural network at each training step is considered as random variable, whose approximate posterior distribution given the training data and current network parameter vector is predicted by Variational HyperAdam. The parameter update vector for network training is sampled from this approximate posterior distribution. Specifically, in Variational HyperAdam, we design a learnable generalized Adam algorithm for estimating expectation, paired with a VarBlock for estimating the variance of the approximate posterior distribution of parameter update vector. The Variational HyperAdam is learned in a meta-learning approach with meta-training loss derived by variational inference. Experiments verify that the learned Variational HyperAdam achieved state-of-the-art network training performance for various types of networks on different datasets, such as multilayer perceptron, CNN, LSTM and ResNet.}
   }
 
+@ARTICLE{10113287,
+  author={Li, Xiaorong and Wang, Shipeng and Sun, Jian and Xu, Zongben},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Variational Data-Free Knowledge Distillation for Continual Learning}, 
+  year={2023},
+  volume={45},
+  number={10},
+  pages={12618-12634},
+  doi={10.1109/TPAMI.2023.3271626},
+  abbr = {TPAMI},
+  code = {https://github.com/XiaorongLi-95/VDFD},
+  abstract = {Deep neural networks suffer from catastrophic forgetting when trained on sequential tasks in continual learning. Various methods rely on storing data of previous tasks to mitigate catastrophic forgetting, which is prohibited in real-world applications considering privacy and security issues. In this paper, we consider a realistic setting of continual learning, where training data of previous tasks are unavailable and memory resources are limited. We contribute a novel knowledge distillation-based method in an information-theoretic framework by maximizing mutual information between outputs of previously learned and current networks. Due to the intractability of computation of mutual information, we instead maximize its variational lower bound, where the covariance of variational distribution is modeled by a graph convolutional network. The inaccessibility of data of previous tasks is tackled by Taylor expansion, yielding a novel regularizer in network training loss for continual learning. The regularizer relies on compressed gradients of network parameters. It avoids storing previous task data and previously learned networks. Additionally, we employ self-supervised learning technique for learning effective features, which improves the performance of continual learning. We conduct extensive experiments including image classification and semantic segmentation, and the results show that our method achieves state-of-the-art performance on continual learning benchmarks.}
+  }
+@article{LI2023109875,
+title = {Memory efficient data-free distillation for continual learning},
+journal = {Pattern Recognition},
+abbr = {PR}
+volume = {144},
+year = {2023},
+pdf = {https://www.sciencedirect.com/science/article/pii/S0031320323005733},
+author = {Xiaorong Li and Shipeng Wang* and Jian Sun and Zongben Xu},
+keywords = {Continual learning, Catastrophic forgetting, Knowledge distillation},
+abstract = {Deep neural networks suffer from the catastrophic forgetting phenomenon when trained on sequential tasks in continual learning, especially when data from previous tasks are unavailable. To mitigate catastrophic forgetting, various methods either store data from previous tasks, which may raise privacy concerns, or require large memory storage. Particularly, the distillation-based methods mitigate catastrophic forgetting by using proxy datasets. However, proxy datasets may not match the distributions of the original datasets of previous tasks. To address these problems in a setting where the full training data of previous tasks are unavailable and memory resources are limited, we propose a novel data-free distillation method. Our method encodes knowledge of previous tasks into network parameter gradients by Taylor expansion, deducing a regularizer relying on gradients in network training loss. To improve memory efficiency, we design an approach to compressing the gradients in the regularizer. Moreover, we theoretically analyze the approximation error of our method. Experimental results on multiple datasets demonstrate that our proposed method outperforms the existing approaches in continual learning.}
+}
 
 
 inproceedings{song2023consistency,
