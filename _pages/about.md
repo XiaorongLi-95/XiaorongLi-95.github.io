@@ -18,4 +18,4 @@ social: true  # includes social icons at the bottom of the page
 ---
 **Research:** My research interests include meta-learning, continual learning, etc.
 
-**Previously:** I reveived my Ph.D. in Mathematics from [Xi&#39;an Jiaotong University](https://www.xjtu.edu.cn/), advised by [Prof. Zongben Xu](https://gr.xjtu.edu.cn/en/web/zbxu) and co-advised by [Prof. Jian Sun](https://gr.xjtu.edu.cn/en/web/jiansun/publications). I obtained my Bachelor's degree in Mathematics and Applied Mathematics from [Ocean University of China](https://www.ouc.edu.cn/).
+**Previously:** I reveived my Ph.D. in Mathematics from [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), advised by [Prof. Zongben Xu](https://gr.xjtu.edu.cn/en/web/zbxu) and co-advised by [Prof. Jian Sun](https://gr.xjtu.edu.cn/en/web/jiansun/publications). I obtained my Bachelor's degree in Mathematics and Applied Mathematics from [Ocean University of China](https://www.ouc.edu.cn/).
