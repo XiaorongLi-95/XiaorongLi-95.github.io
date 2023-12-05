@@ -58,10 +58,11 @@
   code = {https://github.com/XiaorongLi-95/VDFD},
   abstract = {Deep neural networks suffer from catastrophic forgetting when trained on sequential tasks in continual learning. Various methods rely on storing data of previous tasks to mitigate catastrophic forgetting, which is prohibited in real-world applications considering privacy and security issues. In this paper, we consider a realistic setting of continual learning, where training data of previous tasks are unavailable and memory resources are limited. We contribute a novel knowledge distillation-based method in an information-theoretic framework by maximizing mutual information between outputs of previously learned and current networks. Due to the intractability of computation of mutual information, we instead maximize its variational lower bound, where the covariance of variational distribution is modeled by a graph convolutional network. The inaccessibility of data of previous tasks is tackled by Taylor expansion, yielding a novel regularizer in network training loss for continual learning. The regularizer relies on compressed gradients of network parameters. It avoids storing previous task data and previously learned networks. Additionally, we employ self-supervised learning technique for learning effective features, which improves the performance of continual learning. We conduct extensive experiments including image classification and semantic segmentation, and the results show that our method achieves state-of-the-art performance on continual learning benchmarks.}
   }
+
 @article{LI2023109875,
 title = {Memory efficient data-free distillation for continual learning},
 journal = {Pattern Recognition},
-abbr = {PR}
+abbr = {PR},
 volume = {144},
 year = {2023},
 pdf = {https://www.sciencedirect.com/science/article/pii/S0031320323005733},
