@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: |+
   <strong>PhD student</strong> at <a href="https://math.xjtu.edu.cn/">School of Mathematics and Statistics</a><br>
-  <a href="https://www.xjtu.edu.cn">Xi'an Jiaotong University</a>
+  <a href="https://www.xjtu.edu.cn">Xi'an Jiaotong University</a><br>
   Fifth North Building Office 619<br>
   No.28, West Xianning Road<br>
   Xi'an, Shaanxi, China<br>
