@@ -2,24 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>PhD student</strong> at <a href="https://www.xjtu.edu.cn/">Xi'an Jiaotong University</a><br><br>.
+subtitle: |+
+  <strong>PhD student</strong> at <a href="https://math.xjtu.edu.cn/">School of Mathematics and Statistics</a><br>
+  <a href="https://www.xjtu.edu.cn">Xi'an Jiaotong University</a>
+  Fifth North Building Office 619<br>
+  No.28, West Xianning Road<br>
+  Xi'an, Shaanxi, China<br>
 
 profile:
   align: right
-  image: prof_pic.png
+  image: profile.jpg #prof_pic.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Fifth North Building Office 619</p>
-    <p>No.28, West Xianning Road</p>
-    <p>Xi'an, Shaanxi, China</p>
+  # more_info: >
+  #   <p>Fifth North Building Office 619</p>
+  #   <p>No.28, West Xianning Road</p>
+  #   <p>Xi'an, Shaanxi, China</p>
 
 news: true # includes a list of news items
 # latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+**Research:** My research interests include continual learning, online learning and image recognition, etc.
 
-I am currently working toward the Ph.D. degree in the school of mathematics and statistics of [Xi'an;an Jiaotong University](https://www.xjtu.edu.cn/), supervised by [Prof. Zongben Xu](https://gr.xjtu.edu.cn/en/web/zbxucn) and co-supervised by [Prof. Jian Sun](https://gr.xjtu.edu.cn/en/web/jiansun). My research interests include continual learning, online learning and image recognition. I received the Bachelor degree in school of science from Nanjing University of Science and Technology, China, in 2018.
+**Biography:** I am currently working toward the Ph.D. degree in the school of mathematics and statistics of [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), supervised by [Prof. Zongben Xu](https://gr.xjtu.edu.cn/en/web/zbxucn) and co-supervised by [Prof. Jian Sun](https://gr.xjtu.edu.cn/en/web/jiansun). I received the Bachelor degree in school of science from Nanjing University of Science and Technology, China, in 2018.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
