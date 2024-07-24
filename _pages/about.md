@@ -3,11 +3,11 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  <strong>PhD student</strong> at <a href="https://math.xjtu.edu.cn/">School of Mathematics and Statistics</a><br>
+  <strong>Staff research engineer</strong>, <a href="https://math.xjtu.edu.cn/">School of Mathematics and Statistics</a><br>
   <a href="https://www.xjtu.edu.cn">Xi'an Jiaotong University</a><br>
   Fifth North Building Office 619<br>
   No.28, West Xianning Road<br>
-  Xi'an, Shaanxi, China<br>
+  Beijing, China<br>
 
 profile:
   align: right
@@ -25,7 +25,7 @@ social: true # includes social icons at the bottom of the page
 ---
 **Research:** My research interests include continual learning, online learning and image recognition, etc.
 
-**Biography:** I am currently working toward the Ph.D. degree in the school of mathematics and statistics of [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), supervised by [Prof. Zongben Xu](https://gr.xjtu.edu.cn/en/web/zbxucn) and co-supervised by [Prof. Jian Sun](https://gr.xjtu.edu.cn/en/web/jiansun). I received the Bachelor degree in school of science from [Nanjing University of Science and Technology](https://www.njust.edu.cn), China, in 2018.
+**Biography:** I got my Ph.D. degree in the school of mathematics and statistics of [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), supervised by [Prof. Zongben Xu](https://gr.xjtu.edu.cn/en/web/zbxucn) and co-supervised by [Prof. Jian Sun](https://gr.xjtu.edu.cn/en/web/jiansun). I received the Bachelor degree in school of science from [Nanjing University of Science and Technology](https://www.njust.edu.cn), China, in 2018.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
