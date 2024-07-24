@@ -3,10 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  <strong>Staff research engineer</strong>, <a href="https://math.xjtu.edu.cn/">School of Mathematics and Statistics</a><br>
-  <a href="https://www.xjtu.edu.cn">Xi'an Jiaotong University</a><br>
-  Fifth North Building Office 619<br>
-  No.28, West Xianning Road<br>
+  <strong>Staff research engineer</strong>, <a href="http://research.baidu.com/">Baidu</a><br>
   Beijing, China<br>
 
 profile:
