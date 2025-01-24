@@ -20,6 +20,8 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+**Work:** I am currently focused on Search and Recommendation in Baidu Map.
+
 **Research:** My research interests include continual learning, online learning and image recognition, etc.
 
 **Biography:** I got my Ph.D. degree in the school of mathematics and statistics of [Xi'an Jiaotong University](https://www.xjtu.edu.cn/), supervised by [Prof. Zongben Xu](https://gr.xjtu.edu.cn/en/web/zbxucn) and co-supervised by [Prof. Jian Sun](https://gr.xjtu.edu.cn/en/web/jiansun). I received the Bachelor degree in school of science from [Nanjing University of Science and Technology](https://www.njust.edu.cn), China, in 2018.
