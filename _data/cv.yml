@@ -24,6 +24,9 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Senior Engineer
+      institution: Baidu Inc., Baidu Map, Beijing, China
+      year: Autumn 2024 - Now
     - title: Research Intern
       institution: Baidu Research, Business Intelligence Lab, Beijing, China
       year: Winter 2023
@@ -52,3 +55,4 @@
   type: list
   contents:
     - Member of Xi'an Jiaotong University Table Tennis Team
+    - A little guitar
