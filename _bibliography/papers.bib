@@ -33,6 +33,24 @@
   code = {https://github.com/XiaorongLi-95/VDFD},
   abstract = {Deep neural networks suffer from catastrophic forgetting when trained on sequential tasks in continual learning. Various methods rely on storing data of previous tasks to mitigate catastrophic forgetting, which is prohibited in real-world applications considering privacy and security issues. In this paper, we consider a realistic setting of continual learning, where training data of previous tasks are unavailable and memory resources are limited. We contribute a novel knowledge distillation-based method in an information-theoretic framework by maximizing mutual information between outputs of previously learned and current networks. Due to the intractability of computation of mutual information, we instead maximize its variational lower bound, where the covariance of variational distribution is modeled by a graph convolutional network. The inaccessibility of data of previous tasks is tackled by Taylor expansion, yielding a novel regularizer in network training loss for continual learning. The regularizer relies on compressed gradients of network parameters. It avoids storing previous task data and previously learned networks. Additionally, we employ self-supervised learning technique for learning effective features, which improves the performance of continual learning. We conduct extensive experiments including image classification and semantic segmentation, and the results show that our method achieves state-of-the-art performance on continual learning benchmarks.}
 }
+
+@article{Wang_2024_TPAMI,
+	author={Wang, Shipeng and Li, Xiaorong and Sun, Jian and Xu, Zongben},
+	journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+	title={Training Networks in Null Space of Feature Covariance With Self-Supervision for Incremental Learning}, 
+	year={2024},
+	volume={},
+	number={},
+	pages={1-18},
+	doi={10.1109/TPAMI.2024.3522258},
+	abbr = {TPAMI},
+	pdf = {https://ieeexplore.ieee.org/document/10816176},
+	poster = {VDFD_pami_Poster.pdf},
+	supp = {VDFD_PAMI_Appendix.pdf},
+	code = {https://github.com/XiaorongLi-95/VDFD},
+	abstract = {In the context of incremental learning, a network is sequentially trained on a stream of tasks, where data from previous tasks are particularly assumed to be inaccessible. The major challenge is how to overcome the stability-plasticity dilemma, i.e., learning knowledge from new tasks without forgetting the knowledge of previous tasks. To this end, we propose two mathematical conditions for guaranteeing network stability and plasticity with theoretical analysis. The conditions demonstrate that we can restrict the parameter update in the null space of uncentered feature covariance at each linear layer to overcome the stability-plasticity dilemma, which can be realized by layerwise projecting gradient into the null space. Inspired by it, we develop two algorithms, dubbed Adam-NSCL and Adam-SFCL respectively, for incremental learning. Adam-NSCL and Adam-SFCL provide different ways to compute the projection matrix. The projection matrix in Adam-NSCL is constructed by singular vectors associated with the smallest singular values of the uncentered feature covariance matrix, while the projection matrix in Adam-SFCL is constructed by all singular vectors associated with adaptive scaling factors. Additionally, we explore adopting self-supervised techniques, including self-supervised label augmentation and a newly proposed contrastive loss, to improve the performance of incremental learning. These self-supervised techniques are orthogonal to Adam-NSCL and Adam-SFCL and can be incorporated with them seamlessly, leading to Adam-NSCL-SSL and Adam-SFCL-SSL respectively. The proposed algorithms are applied to task-incremental and class-incremental learning on various benchmark datasets with multiple backbones, and the results show that they outperform the compared incremental learning methods.}
+}
+
 @article{LI2023109875,
 title = {Memory Efficient Data-Free Distillation for Continual Learning},
 journal = {Pattern Recognition},
