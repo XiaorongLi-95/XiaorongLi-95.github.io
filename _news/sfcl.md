@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The paper of SFCL is accepted by TPAMI.
+The paper of Adam-SFCL (optimization-based continual learning method) is accepted by TPAMI. Welcome to use!
