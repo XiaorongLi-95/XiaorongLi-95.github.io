@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: |+
   <strong>Staff research engineer</strong>, <a href="http://research.baidu.com/">Baidu</a><br>

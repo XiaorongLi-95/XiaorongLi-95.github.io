@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Most of my research has code open-sourced at GitHub.
 nav: true
 nav_order: 3

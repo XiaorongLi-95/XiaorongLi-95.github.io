@@ -20,6 +20,7 @@
 | **项目展示** | `_projects/` 目录下的 `.md` 文件 |
 | **导航栏样式（大小写等）** | `_sass/_base.scss` |
 | **删除/隐藏导航栏tab** | `_config.yml` (blog) 或对应页面的 `nav: false` |
+| **主题颜色** | `_sass/_variables.scss` (颜色定义) + `_sass/_themes.scss` (应用) |
 
 ---
 
@@ -80,9 +81,10 @@ first_name: [Li, L.]
 ### 6. 导航栏标题改为大写 (`_sass/_base.scss`)
 在 `_sass/_base.scss` 中找到 `.navbar` 相关样式（约第172行），添加 `text-transform`:
 ```scss
-.navbar-nav .nav-item .nav-link {
+
+ {
   color: var(--global-text-color);
-  text-transform: uppercase;  // 添加这行，标题变大写
+  text-transform: uppercase;  // 添加这行，标题变大写  capitalize 首字母大写
   // ...
 }
 ```
@@ -91,6 +93,39 @@ first_name: [Li, L.]
 在 `_config.yml` 中找到 `blog_nav_title`（约第104行），将其设为空：
 ```yaml
 blog_nav_title:  # 留空即可隐藏 blog tab
+```
+
+### 8. 修改主题颜色
+主题颜色由两个文件控制：
+
+**Step 1: 定义颜色** (`_sass/_variables.scss`)
+```scss
+// 预定义的颜色变量
+$purple-color: #b509ac !default;   // 当前主色调（紫色）
+$cyan-color: #2698ba !default;     // 暗色模式主色调
+$blue-color: #0076df !default;
+$green-color: #00ab37 !default;
+$red-color: #ff3636 !default;
+$pink-color: #f92080 !default;
+```
+
+**Step 2: 应用颜色** (`_sass/_themes.scss`)
+```scss
+// 亮色模式（约第10行）
+:root {
+  --global-theme-color: #{$purple-color};  // 改为其他颜色如 $blue-color
+}
+
+// 暗色模式（约第55行）
+html[data-theme="dark"] {
+  --global-theme-color: #{$cyan-color};    // 暗色模式的主色调
+}
+```
+
+**示例：将主色调改为蓝色**
+```scss
+// _sass/_themes.scss 第10行
+--global-theme-color: #{$blue-color};
 ```
 
 ---
@@ -140,22 +175,6 @@ git push origin master
    ```bash
    git push origin master
    ```
-
-**方法二：使用 Personal Access Token**
-1. GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic) → Generate new token
-2. 勾选 `repo` 权限，设置过期时间，生成 token（**立即复制保存，只显示一次**）
-3. push 时使用 token：
-   ```bash
-   # 方式A：直接在 URL 中使用（一次性）
-   git push https://<你的用户名>:<你的token>@github.com/XiaorongLi-95/XiaorongLi-95.github.io.git master
-   
-   # 方式B：配置 credential 存储（推荐，避免每次输入）
-   git config --global credential.helper store
-   git push origin master
-   # 首次会提示输入用户名和密码，用户名填 GitHub 用户名，密码填 token
-   # 之后会自动记住
-   ```
-
 ---
 
 ## 注意事项
