@@ -24,9 +24,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Staff Engineer
+      institution: Baidu Inc., Baidu Map, Beijing, China
+      year: Spring 2026 - Now
     - title: Senior Engineer
       institution: Baidu Inc., Baidu Map, Beijing, China
-      year: Autumn 2024 - Now
+      year: Autumn 2024 - Winter 2025
     - title: Research Intern
       institution: Baidu Research, Business Intelligence Lab, Beijing, China
       year: Winter 2023

@@ -20,7 +20,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-**Work:** I am currently focused on Search and Recommendation in Baidu Map.
+**Work:** I am currently focused on Agentic Search, Agent Tuning and Self-Evolving Agents in Baidu Map.
 
 **Research:** My research interests include continual learning, online learning and image recognition, etc.
 
